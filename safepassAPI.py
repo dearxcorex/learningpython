@@ -47,7 +47,7 @@ def main():
     SCOPE = ['https://spreadsheets.google.com/feeds','https://www.googleapis.com/auth/drive']
 
 
-    creadentials = ServiceAccountCredentials.from_json_keyfile_name('safePasswordV1-eb6d43424c74.json',SCOPE)
+    creadentials = ServiceAccountCredentials.from_json_keyfile_name('',SCOPE)
 
     gc = gspread.authorize(creadentials)
 
